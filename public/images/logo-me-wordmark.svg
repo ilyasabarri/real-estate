@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60" width="320" height="60" fill="none">
+  <defs>
+    <linearGradient id="goldWordGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3DCAB" />
+      <stop offset="40%" stop-color="#C59B3F" />
+      <stop offset="75%" stop-color="#EED599" />
+      <stop offset="100%" stop-color="#A57D28" />
+    </linearGradient>
+  </defs>
+
+  <!-- Title: MAJESTIC ESTATES -->
+  <text 
+    x="0" 
+    y="28" 
+    font-family="'Playfair Display', 'Cinzel', Georgia, serif" 
+    font-size="22" 
+    font-weight="700" 
+    letter-spacing="4" 
+    fill="url(#goldWordGrad)"
+  >
+    MAJESTIC ESTATES
+  </text>
+
+  <!-- Left horizontal accent line -->
+  <line x1="0" y1="46" x2="38" y2="46" stroke="url(#goldWordGrad)" stroke-width="1.2" opacity="0.8"/>
+
+  <!-- Subtitle: IMMOBILIER DE PRESTIGE • MAROC -->
+  <text 
+    x="46" 
+    y="49" 
+    font-family="Inter, sans-serif" 
+    font-size="8.5" 
+    font-weight="600" 
+    letter-spacing="2.8" 
+    fill="#DDC48C"
+  >
+    IMMOBILIER DE PRESTIGE
+  </text>
+
+  <!-- Right horizontal accent line -->
+  <line x1="228" y1="46" x2="270" y2="46" stroke="url(#goldWordGrad)" stroke-width="1.2" opacity="0.8"/>
+</svg>

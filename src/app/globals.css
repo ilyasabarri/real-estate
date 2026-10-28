@@ -1,0 +1,30 @@
+/* Majestic Estates Maroc - Core Overrides & Cache-busted Styles */
+
+@media (max-width: 768px) {
+  /* Eliminate the wide vertical gap between top navigation bar and hero content */
+  .hero {
+    margin: 8px !important;
+    min-height: auto !important;
+    padding: 76px 0 20px !important;
+    justify-content: flex-start !important;
+    gap: 12px !important;
+  }
+  .hero > .wrap {
+    margin-inline: 14px !important;
+  }
+  .hero__content {
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+  .hero__chip {
+    margin-bottom: 8px !important;
+  }
+  .hero__title {
+    font-size: clamp(30px, 8.5vw, 44px) !important;
+    line-height: 1.05 !important;
+    margin-bottom: 4px !important;
+  }
+  .hero__booking {
+    margin-top: 14px !important;
+  }
+}
